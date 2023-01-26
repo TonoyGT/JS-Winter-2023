@@ -27,34 +27,13 @@
  * Hint: Ternary operator
  * 
  */
+
 //let sentence1 = 'NPR news, audio, and podcasts. Coverage of breaking stories, national and world news, politics, business, science, technology, and extended coverage of, View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.';
-//let sentence1 = '';
-//let sentence1 = 'go to home';
-let sentence1 = 'View the latest news'
+let sentence1 = '';
+let sentC1 = sentence1.length > 100;
+let sentC2 = sentence1.startsWith('Go to');
 
-
-//let sentence2 = 'Go to here';
-
-
-let result1 = 0;
-let result2 =0;
-
-let setence1L = sentence1.length;
-let sentence1S = sentence1.startsWith('Go to');
-
-//let setence2L = sentence2.length;
-//let sentence2S = sentence2.startsWith('Go to');
-
-if (setence1L > 100 || sentence1S.true)
-    result1 = 25
-else
-    result1 = 35    
-
-/*if (setence2L > 100 || sentence2S.true)
-    result2 = 25
-else
-    result2 = 35
-   */     
+result1 = sentC1 || sentC2 ? 25 : 35
 
 
 
