@@ -13,8 +13,8 @@ let userName1 = 'rahat tonoy';
 let userName1Split = userName1.split(' ');
 let result = userName1Split.length > 1 && userName1Split.length <3;
 
-console.log(`abbr -> ${userName1Split}`);
-console.log(`abbr -> ${result}`); 
+console.log(`Names: ${userName1Split}`);
+console.log(`Condition:- ${result}`); 
 
 
 /**
