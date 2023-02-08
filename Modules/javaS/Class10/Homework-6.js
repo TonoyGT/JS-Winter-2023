@@ -24,7 +24,7 @@ function titleCase(str) {
     }
     return str.join(' ');
   }
-console.log("Q1: Convert any given sentence into Titlecase"/n)
+console.log("\n Q1: Convert any given sentence into Titlecase \n")
 console.log(str1);                  // 'YOu ONlY lIVe ONcE'
 console.log(titleCaseStr1);         // 'You Only Live Once'
 
@@ -47,7 +47,7 @@ function reverseString(str) {
     return str.split(' ').reverse().join(' ');
 }
 
-
+console.log("\n Q2:Reverse a String (word by word) \n")
 console.log(str2);              // 'hello dear how are you doing'
 console.log(reverseStr2);       // 'doing you are how dear hello'
 
@@ -73,6 +73,7 @@ for (let i =0; i<arr3.length; i++){
 }
 avg = total/arr3.length; 
 
+console.log("\n Q3:Find the average of the given array: \n")
 console.log(arr3);
 console.log(total);      // [1, 1, 1, 2, 3, 1, 2]
 console.log(avg);       // 1.57
@@ -101,7 +102,7 @@ function abbreviation(str) {
     }
     return str.join(' ');
   }
-
+console.log("\n Q4:Create abbreviation for a given sentence. \n")
 console.log(str4);          // 'apple banana cherry'
 console.log(abbr);          // ABC
 
@@ -118,6 +119,7 @@ console.log(abbr);          // ABC
  * Note: final answer must be in the SAME variable (arr5)
  */
 let arr5 = ['earTh', 'meRCUrY', 'VeNUs', 'Mars', 'JUPiTer'];
+console.log("\n Q5:Convert all string values in the given array into Uppercase \n")
 console.log(arr5);      // ['earTh', 'meRCUrY', 'VeNUs', 'Mars', 'JUPiTer']
 // code
 function arrayUppercase(arr) {
