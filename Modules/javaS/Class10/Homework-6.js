@@ -123,11 +123,11 @@ console.log("\n Q5:Convert all string values in the given array into Uppercase \
 console.log(arr5);      // ['earTh', 'meRCUrY', 'VeNUs', 'Mars', 'JUPiTer']
 // code
 function arrayUppercase(arr) {
-    newarr = [];
+    //newarr = [];
     for (let i = 0; i < arr.length; i++) {
-        newarr.push(arr[i].toUpperCase());   
+        arr = arr[i].toUpperCase();   
     }
-    return newarr;
+    return arr;
   }
 
 
