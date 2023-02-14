@@ -19,12 +19,12 @@ console.log(`result1 -> ${result}`)
  * 4. does word 'from' present only once in sentence2 (ignoring cases)      -> boolean
  * 5. the character present at second-last index in the String
  */
-const sentence2 = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
+const sentence2 = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM from soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
 let sentence2Lower = sentence2.toLowerCase();
 let length = sentence2Lower.length;
 let startsWith = sentence2Lower.startsWith('com');
 let endsWith = sentence2Lower.endsWith('google news');
-let presentOnly1 = sentence2Lower.indexOf('from') === sentence2Lower.lastIndexOf('from') && sentence2Lower.indexOf('from') >0;
+let presentOnly1 = sentence2Lower.indexOf('from') === sentence2Lower.lastIndexOf('from') && sentence2Lower.indexOf('from') > 0;
 
 
 
@@ -37,6 +37,7 @@ console.log(`startsWith -> ${startsWith}`)
 console.log(`endsWith -> ${endsWith}`)
 console.log(`presentOnly1 -> ${presentOnly1}`)
 console.log(`charAt_last2 -> ${charAt_last2}`)
+
 
 
 
