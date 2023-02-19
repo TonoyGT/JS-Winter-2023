@@ -1,18 +1,21 @@
+let marks = [ 15, 20,36,85,99];
+let names = [ "ax", "bx", "c","dx"];
 
-const arr3 = ['BASEBall', 'FOOTBALL', 'rUGBy', 'bASEball', 'sOCcEr', 'BaskETBall', 'bAsEbAlL', 'mARAthon'];
-const arr3Result = arr3.map(word => word.toLocaleLowerCase());
+let output = marks.splice(3,1,80);
+let output1 = names.map(a => a.toLocaleUpperCase());
+let output2 = names.filter(ele => ele.includes("x"));
+let output3 = marks.find(ele => ele > 10);
 
-function indexOfOccurrence(haystack, needle, occurrence) {
-    var counter = 0;
-    var index = -1;
-    do {
-        index = haystack.indexOf(needle, index + 1);
-    }
-    while (index !== -1 && (++counter < occurrence));
-    return index;
-}
 
-// Usage
-var index = indexOfOccurrence(arr3Result, 'baseball', 2);
-
-console.log(index);
+console.log("\n Splice \n");
+console.log(marks);
+console.log(output);
+console.log("\n Map \n");
+console.log(names);
+console.log(output1);
+console.log("\n Filter \n");
+console.log(names);
+console.log(output2);
+console.log("\n Find \n");
+console.log(names);
+console.log(output3);
